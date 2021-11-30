@@ -21,7 +21,7 @@ function generateMarkdown(data) {
 
 
   // Badge will appear near top. info added to correct areas, add notice to license area, link to GH profile, email to questions area with instructions on how to reach me. TOC should have links to sections
-  return `# ${data.title}
+  return `# ${data.projectName}
   
 
 
@@ -44,7 +44,7 @@ function generateMarkdown(data) {
 
   ## Usage
 
-    ${data.usage}
+  ${data.usage}
 
   ## License
 
