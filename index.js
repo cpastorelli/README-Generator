@@ -32,7 +32,7 @@ inquirer
         },
         {
             type: "list",
-            name: "licenseType",
+            name: "license",
             message: "Which license will be used for this project?",
             choices: ["MIT", "Apache 2.0", "GPLv3", "BSD 3-Clause", "Creative Commons (CC0)", "LGPLv3", "AGPLv3", "Hippocratic 3.0", "WTFPL", "None" ]
         },
@@ -55,6 +55,16 @@ inquirer
             type: "input",
             name: "contributions",
             message: "Who contributed to this project, besides yourself?"
+        },
+        {
+            type: "input",
+            name: "build",
+            message: "Please enter programs and languages that contributed to this project: "
+        },
+        {
+            type: "input",
+            name: "sites",
+            message: "Please enter any sites that may have contributed to this project: "
         },
         {
             type: "input",
