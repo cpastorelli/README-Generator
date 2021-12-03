@@ -1,9 +1,14 @@
 //This function will turn the string of websites
 function splitStringToArray(sites) {
   let siteArr = sites.split(",");
-  console.log(siteArr);
+  
+  return siteArr;
 }
 
+function makethingswork() {
+
+
+}
 
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
