@@ -14,11 +14,15 @@
   - [Questions](#questions)
 
   ## Description
+
+  [ScreenCast Tutorial of the Program](https://www.screencast.com/t/btNutk5U)
+
   This program will auto create a README file after receiving inputs for each section. Fill out in as much detail as possible each question that is asked. 
   - If there are multiple items to submit, separate them with a comma ( , )
   - To go to the next question, press ENTER
   
   Once each question has been answered, the file will generate automatically. If you wish to add any images or styling format, please feel free to review and edit your README file. 
+ 
 
   ![NodeExample](./assets/nodeExample.png)
 
