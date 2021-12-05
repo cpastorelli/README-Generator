@@ -74,7 +74,7 @@ inquirer
     ])
     .then((responses) => {
         console.log(responses);
-        writeToFile("README1.md", generateMarkdown(responses));
+        writeToFile("README.md", generateMarkdown(responses));
     });
 }
 

@@ -101,10 +101,10 @@ function generateMarkdown(data) {
   ${data.contributions}
 
   ## Website Shoutouts
-  These sites helped contribute to the completion of this project
-
-  ${splitStringToArray(data.sites)}
-
+  These sites helped contribute to the completion of this project:
+  ```
+   - ${splitStringToArray(data.sites)}
+  ```
   ## Tests
   These are the tests that were done to the program:
 
