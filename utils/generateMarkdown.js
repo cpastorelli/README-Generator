@@ -1,9 +1,4 @@
-//This function will turn the string of websites
-function splitStringToArray(sites) {
-  let siteArr = sites.split(",");
-  
-  return siteArr;
-}
+
 
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
@@ -102,9 +97,9 @@ function generateMarkdown(data) {
 
   ## Website Shoutouts
   These sites helped contribute to the completion of this project:
-  ```
-   - ${splitStringToArray(data.sites)}
-  ```
+  
+  ${data.sites}
+  
   ## Tests
   These are the tests that were done to the program:
 

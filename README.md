@@ -14,12 +14,19 @@
   - [Questions](#questions)
 
   ## Description
-  This program will auto create a README file after receiving inputs for each section.
+  This program will auto create a README file after receiving inputs for each section. Fill out in as much detail as possible each question that is asked. 
+  - If there are multiple items to submit, separate them with a comma ( , )
+  - To go to the next question, press ENTER
+  
+  Once each question has been answered, the file will generate automatically. If you wish to add any images or styling format, please feel free to review and edit your README file. 
+
+  ![NodeExample](./assets/nodeExample.png)
 
   ## Installation
   To install this program and run it as intended, please use the following commands within your node.js server:
 
-  npm install, node index.js
+  -  npm install
+  -  node index.js
 
   ## Usage
 
@@ -53,7 +60,7 @@
   Trial and Error
 
   ## Questions
-  If you have any questions, please feel free to contact me!
+  If you have any questions, comments, or suggestions, please feel free to contact me! I am new to this and any advice/ help is appreciated!
 
   - [Github](https://github.com/cpastorelli)
   - [Email](cpastorelli@arcanabrewing.com)
