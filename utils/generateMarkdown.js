@@ -5,11 +5,6 @@ function splitStringToArray(sites) {
   return siteArr;
 }
 
-function makethingswork() {
-
-
-}
-
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
@@ -108,7 +103,6 @@ function generateMarkdown(data) {
   ## Website Shoutouts
   These sites helped contribute to the completion of this project
 
-  ${data.sites}
   ${splitStringToArray(data.sites)}
 
   ## Tests
