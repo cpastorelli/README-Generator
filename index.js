@@ -59,7 +59,7 @@ inquirer
         {
             type: "input",
             name: "build",
-            message: "What languages were used? "
+            message: "What languages were used?"
         },
         {
             type: "input",

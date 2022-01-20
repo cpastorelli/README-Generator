@@ -15,7 +15,7 @@
 
   ## Description
 
-  [ScreenCast Tutorial of the Program](https://www.screencast.com/t/btNutk5U)
+  [ScreenCast Tutorial of the Program](https://www.screencast.com/t/FHwNjb5pBO)
 
   This program will auto create a README file after receiving inputs for each section. Fill out in as much detail as possible each question that is asked. 
   - If there are multiple items to submit, separate them with a comma ( , )
