@@ -63,10 +63,10 @@ function generateMarkdown(data) {
   - [Description](#description)
   - [Installation](#installation)
   - [Usage](#usage)
-  - [Built With](#builtwith)
+  - [Built](#built)
   - [License](#license)
   - [Contributions](#contributions)
-  - [Website Shoutouts](#websites)
+  - [Acknowledgements](#Acknowledgements)
   - [Tests](#tests)
   - [Questions](#questions)
 
@@ -82,7 +82,7 @@ function generateMarkdown(data) {
 
   ${data.usage}
 
-  ## Built With
+  ## Built
   
   ${data.build}
 
@@ -95,7 +95,7 @@ function generateMarkdown(data) {
   
   ${data.contributions}
 
-  ## Website Shoutouts
+  ## Acknowledgements
   These sites helped contribute to the completion of this project:
   
   ${data.sites}
